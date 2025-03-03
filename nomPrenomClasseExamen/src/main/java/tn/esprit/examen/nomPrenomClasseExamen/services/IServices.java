@@ -12,4 +12,6 @@ public interface IServices {
     void remove(Long foyerId);
     Projet modify(Projet foyer);
     Projet addProjetAndProjetDetailAndAssign(Projet projet);
+    public Projet addProjetAndAssignProjetToProjetDetail(Projet projet, Long projetDetailId);
+    public Projet DesaffecterProjetDetailFromProjet(Long projetId);
 }
